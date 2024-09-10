@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import Advantages from "./pages/Advantages";
 import NotFound from "./compenets/notFound";
 
+
+
 function App() {
   return (
     <>
