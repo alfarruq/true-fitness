@@ -30,7 +30,7 @@ const OpenClub = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form data:', formData);
-    // You can implement form submission logic here.
+    
   };
 
   return (
