@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Brend from "./pages/Brend";
 import OpenClub from "./pages/OpenClub";
 import Contact from "./pages/Contact";
-import Advantages from "./pages/Advantages";
+import Advantages from "./pages/Advantages/advantages";
 import NotFound from "./compenets/notFound";
 
 
