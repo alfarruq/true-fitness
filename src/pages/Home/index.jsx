@@ -1,30 +1,35 @@
-import sec1img from "../../assets/img-1home.png";
 import "./index.css"
 import salam from "../../assets/image 6.png";
 import run from "../../assets/run.png";
 import group from "../../assets/Mask group.png";
 import Card from "../../compenets/home-cards/hcard";
+import homebg from "../../assets/homebg.png"
+import pause from "../../assets/pause.png"
 
 
 
 function Home() {
 
-    let info =[
-        {src:group,h2:"КОНСАЛТИНГ",p:"Помогаем в разработке концепции клуба, зонировании, оснащении и расчете финансовых показателей.",},
-        {src:"",h2:"",p:"",},
-        {src:"",h2:"",p:"",},
-        {src:"",h2:"",p:"",},
-        {src:"",h2:"",p:"",},
-        {src:"",h2:"",p:"",}
+    let info = [
+        { src: group, h2: "КОНСАЛТИНГ", p: "Помогаем в разработке концепции клуба, зонировании, оснащении и расчете финансовых показателей.", },
+        { src: "", h2: "", p: "", },
+        { src: "", h2: "", p: "", },
+        { src: "", h2: "", p: "", },
+        { src: "", h2: "", p: "", },
+        { src: "", h2: "", p: "", }
     ]
 
     return (
         <main className="container">
             <section className="sec-1">
-                <div className="">
-                    <img className="imgno1" src={sec1img} alt="" />
 
+                <div className="sec-11">
+                    <div className="img-hhh1">
+                        <img src={pause} alt="" />
+                        <h1 className="ccccccc">TRUE FITNESS - ПРЕМИУМ <br /> ТРЕНАЖЕРЫ ИЗ США</h1>
+                    </div>
                 </div>
+
                 <div className="sec-1-div">
                     <div>
                         < hr className="hr" />
@@ -78,14 +83,14 @@ function Home() {
                 </div>
             </section>
 
-            <section className="sec-4"> 
+            <section className="sec-4">
 
 
                 <div>
                     <h1 className="sec-4h1">Мы предлагаем <br /> полный комплекс услуг</h1>
                     <div className="cardsh">
                         {
-                            info.map((product)=>{
+                            info.map((product) => {
                                 return <Card key={product.id} data={product} />
                             })
                         }

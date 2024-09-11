@@ -136,9 +136,9 @@
     margin-top: 16px;
 }
 
-.sec-4h1{
+.sec-4h1 {
     color: rgba(1, 174, 231, 1);
-    padding-top: 90px;   
+    padding-top: 90px;
     text-transform: uppercase;
 }
 
@@ -159,6 +159,16 @@
     padding-top: 21px;
 }
 
+.img-hhh1{
+    text-align: center;
+}
+
+
+.ccccccc{
+    color: white;
+    font-family: 'Montserrat';
+}
+
 
 .sec-4 {
     width: 100%;
@@ -169,6 +179,16 @@
     justify-content: space-between;
 }
 
-.cardsh{
+.cardsh {
     margin-top: 120px;
+}
+
+.sec-11 {
+    background-image: url("../../assets/homebg.png");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
