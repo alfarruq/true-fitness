@@ -9,32 +9,18 @@
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-.so{
-    margin-top: 26px;
-    text-transform:uppercase ;
-}
-
-.span-ble{
-=======
 .so {
     margin-top: 26px;
     text-transform: uppercase;
 }
 
 .span-ble {
->>>>>>> home
     color: rgba(1, 174, 231, 1);
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-.h1-2-home{
-    
-=======
 .h1-2-home {
 
->>>>>>> home
     margin-top: 25px;
 }
 
@@ -49,19 +35,11 @@
     width: 100%;
 }
 
-<<<<<<< HEAD
 .img-2{
     display: flex;
 }
 
 .imggg2{
-=======
-.img-2 {
-    display: flex;
-}
-
-.imggg2 {
->>>>>>> home
     transform: translate(-269px)
 }
 
@@ -84,28 +62,6 @@
     margin-left: 337px;
 }
 
-<<<<<<< HEAD
-
-.sec1zo{
-    display: flex;
-}
-
-.qv{
-    color: white;
-}
-
-.sec-2{
-    padding-left: 96px;
-    padding-right: 96px;
-    display: flex;
-    margin-top: 43px;
-    gap: 500px;
-}
-
-.sec-3{
-    background-color: rgba(245, 245, 245, 1);
-    height: 836px;
-=======
 .sec3-h1 {
     color: white;
     text-transform: uppercase;
@@ -235,5 +191,4 @@
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> home
 }
