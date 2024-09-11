@@ -189,7 +189,13 @@
     font-weight: 700;
     line-height: 24.38px;
     text-align: center;
+    transition: 700ms;
+}
 
+.inputs button:hover{
+    background: none;
+    color: #01AEE7;
+    border: 2px solid #01AEE7;
 }
 
 .p p {

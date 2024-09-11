@@ -26,7 +26,7 @@ function Advantages() {
                     <p>Мы будем рады проконсультировать Вас и помочь с подбором оборудования</p>
                     <div className="inputs" >
                         <input placeholder="ИМЯ" type="text" name="" id="" />
-                        <input placeholder="+998 (99) 999-99-99" type="number" name="" id="" />
+                        <input placeholder="+998 (99) 999-99-99" type="text" name="" id="" />
                         <input placeholder="E-MAIL" type="email" name="" id="" />
                         <button>ОТПРАВИТЬ</button>
                     </div>
