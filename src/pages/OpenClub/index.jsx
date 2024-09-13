@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './index.css';
 import Rectangle from "../../assets/Rectangle.png"
+
 const OpenClub = () => {
   const [formData, setFormData] = useState({
     name: '',
