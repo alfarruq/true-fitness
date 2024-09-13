@@ -1,0 +1,84 @@
+.ContactInfo {
+    width: 1440px;
+    height: 193px;
+    padding: 17px 117px;
+    background: #01AEE7;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    text-align: center;
+    color: white;
+}
+
+.ContactInfo h3 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    color: #FFF500;
+}
+
+.ContactInfo h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    color: white !important;
+}
+
+.ContactInfo h2 {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32.91px;
+}
+
+.ContactSwipper {
+    width: 1440px;
+    height: 840px;
+    background: rgb(114, 27, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.ContactAdressMap {
+    width: 1440px;
+    height: 662px;
+    top: 1214px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #D9D9D9;
+    display: flex;
+}
+
+.ContactAdress {
+    width: 740px;
+
+    height: 662px;
+    padding: 140px 92px;
+
+}
+
+.ContactAdress h1 {
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: left;
+    color: #01AEE7;
+}
+
+.ContactAdress p {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30.48px;
+    text-align: left;
+}
+.contactDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -5,7 +5,7 @@ import youtube from "../../assets/youtube.png";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer container">
       <div className="footer-container">
         <div className="footer-column">
           <h4>Каталог Товаров</h4>
