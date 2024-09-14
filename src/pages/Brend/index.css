@@ -1,0 +1,256 @@
+.brend {
+    background-color: #D9D9D9;
+}
+
+.brendTop {
+    width: 1440px;
+    height: 225px;
+    background: #01AEE7;
+    text-align: center;
+    padding-top: 28px;
+
+}
+
+.brendTop h3 {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    color: #FFF500;
+}
+
+.brendTop h1 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: white;
+    padding-top: 26px;
+}
+
+.BrendText {
+    background-image: url(../../assets/brandBg.png);
+    height: 969px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrendTextBox {
+    width: 1030px;
+    height: 768px;
+    background: #FFFFFF;
+    padding: 71px 107px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.text1 {
+    width: 823px;
+    height: 128.17px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: left;
+    color: #01AEE7;
+}
+
+.text2 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: left;
+}
+
+.text3 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: left;
+}
+
+.text4 {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    text-align: left;
+    color: #01AEE7;
+}
+
+.BrendAbout {
+    width: 1241px;
+    height: 585px;
+    display: flex;
+    gap: 40px;
+    margin: 94px 100px 0 100px;
+}
+
+.BrendAboutText h1 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+}
+
+.BrendAboutText {
+    width: 600px;
+    height: 585px;
+    background-color: #01AEE7;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 39px;
+}
+
+.BrendAboutText:hover {
+    background-color: white;
+    color: #01AEE7;
+    transition: 0.5s;
+}
+
+.BrendAboutText h1 {
+    width: 341px;
+    height: 43px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    text-align: left;
+}
+
+.BrendAboutText p {
+    width: 440px;
+    height: 279px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+}
+
+.BrendInfo {
+    padding: 55px 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.BrendInfo h1 {
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 26.82px;
+    color: #01AEE7;
+    text-align: center;
+}
+
+.BrendInfo h2 {
+
+
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: center;
+    color: black;
+}
+
+.hr {
+    width: 190px;
+    height: 8px;
+    background-color: #01AEE7;
+    border-radius: 30px;
+    outline: none;
+    display: flex;
+    margin: 0px auto;
+}
+
+.BrendInfo p {
+    width: 823px;
+    height: 144px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    margin: 0 auto;
+}
+
+.years {
+    padding: 23px 100px;
+}
+
+.years ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.years ul li {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21.94px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+
+
+.items {
+    padding: 44px 100px;
+    display: flex;
+    gap: 125px;
+    justify-content: center;
+    align-items: center;
+}
+
+.items h1 {
+    width: 490.34px;
+    height: 148px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: center;
+    color: #01AEE7;
+    text-transform: uppercase;
+}
+
+.items p {
+    width: 519px;
+    height: 162px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: center;
+    padding-top: 21px;
+}
+
+.innovations {
+    background: #01AEE7;
+    color: white;
+
+}
+
+.innovations h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    text-align: center;
+
+}
