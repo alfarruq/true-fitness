@@ -1,77 +1,91 @@
 .footer {
-  background-color: #00aeef;
-  padding: 40px 0;
+  background-color: #00a6e6;
   color: white;
-  font-family: Arial, sans-serif;
+  padding: 40px 0;
+  font-family: 'Arial', sans-serif;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.footer-column {
-  width: 22%;
+.footer-section {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
-.footer-column h4 {
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-
-.footer-column ul {
+.footer-section ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-column ul li {
+.footer-section ul li {
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-.footer-column p {
-  margin-top: 20px;
-  font-size: 14px;
+.footer-section.subscribe {
+  text-align: right;
 }
 
-.newsletter form {
+.subscribe-form {
   display: flex;
-  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
-.newsletter input[type="email"] {
+.subscribe-form input {
   padding: 10px;
   border: none;
-  border-radius: 3px 0 0 3px;
-  width: 200px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 70%;
 }
 
-.newsletter button {
-  background-color: yellow;
+.subscribe-form button {
+  background-color: #ffeb3b;
   border: none;
-  padding: 0 15px;
+  padding: 10px;
+  border-radius: 5px;
   cursor: pointer;
+}
+
+.subscribe-form .arrow {
   font-size: 20px;
+  color: black;
 }
 
 .social-icons {
-  cursor: pointer;
-  gap: 10px;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
-.social-icons a {
-  cursor: pointer;
-  margin-right: 15px;
-  font-size: 18px;
+.icon {
   color: white;
-  text-decoration: none;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.social-icons a:hover {
-  color: #d4d4d4;
+.icon:hover {
+  color: #ffeb3b;
+}
+
+.footer-bottom {
+  background-color: #007bb5;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
