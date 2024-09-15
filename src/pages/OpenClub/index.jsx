@@ -38,6 +38,10 @@ const OpenClub = () => {
 
   return (
     <div className="open-club">
+      <div className='openclub-header'>
+        <h4>КЛУБ TRUE</h4>
+        <h2>ОТКРЫТЬ КЛУБ ВМЕСТЕ С TRUE</h2>
+      </div>
       <div className="image-container">
         <img src={Rectangle} alt="Club Layout" />
       </div>
