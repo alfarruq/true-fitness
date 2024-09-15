@@ -7,7 +7,6 @@ import Brend from "./pages/Brend";
 import OpenClub from "./pages/OpenClub";
 import Contact from "./pages/Contact";
 import Advantages from "./pages/Advantages";
-import NotFound from "./compenets/notFound";
 
 function App() {
   return (

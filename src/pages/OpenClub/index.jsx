@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './index.css';
-import Rectangle from "../../assets/Rectangle.png";
+import Rectangle from "../../assets/Rectangle.png"
 
 const OpenClub = () => {
   const [formData, setFormData] = useState({
@@ -12,11 +12,10 @@ const OpenClub = () => {
     launchTime: '',
     services: [],
     comment: '',
-    plan: null,
   });
 
   const handleChange = (e) => {
-    const { name, value, type, checked, files } = e.target;
+    const { name, value, type, checked } = e.target;
     if (type === 'checkbox') {
       setFormData((prevData) => ({
         ...prevData,
@@ -24,8 +23,6 @@ const OpenClub = () => {
           ? [...prevData.services, value]
           : prevData.services.filter((service) => service !== value),
       }));
-    } else if (type === 'file') {
-      setFormData({ ...formData, plan: files[0] });
     } else {
       setFormData({ ...formData, [name]: value });
     }
@@ -38,11 +35,11 @@ const OpenClub = () => {
   };
 
   return (
-
+    
     <div className="open-club">
-      <div className="image-container">
-        <img src={Rectangle} alt="Club Layout" />
-      </div>
+        <div className='Img-y'>
+            <img src={Rectangle} alt="" />
+        </div>
       <h1>ОТКРЫТЬ КЛУБ ВМЕСТЕ С TRUE</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
@@ -161,11 +158,7 @@ const OpenClub = () => {
           </div>
 
           <label>Загрузить план помещения:</label>
-          <input 
-            type="file" 
-            name="plan" 
-            onChange={handleChange} 
-          />
+          <input type="file" name="plan" />
 
           <label>Комментарий:</label>
           <textarea

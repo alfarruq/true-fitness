@@ -1,92 +1,77 @@
-.ya-footer {
-    background-color: #00a6e6;
-    color: white;
-    padding: 40px 0;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-section {
-    flex: 1;
-    margin: 0 15px;
-  }
-  
-  .footer-section h3 {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin-bottom: 10px;
-    font-size: 14px;
-  }
-  
-  .footer-section.subscribe {
-    text-align: right;
-  }
-  
-  .subscribe-form {
-    display: flex;
-    margin-bottom: 15px;
-  }
-  
-  .subscribe-form input {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
-    margin-right: 10px;
-    width: 70%;
-  }
-  
-  .subscribe-form button {
-    background-color: #ffeb3b;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .subscribe-form .arrow {
-    font-size: 20px;
-    color: black;
-  }
-  
-  .social-icons {
-    margin-top: 15px;
-  }
-  
-  .icon {
-    color: white;
-    font-size: 20px;
-    margin-left: 10px;
-    cursor: pointer;
-    transition: color 0.3s;
-  }
-  
-  .icon:hover {
-    color: #ffeb3b;
-  }
-  
-  .footer-bottom {
-    background-color: #007bb5;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
-  
+.footer {
+  background-color: #00aeef;
+  padding: 40px 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  width: 22%;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.newsletter form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  width: 200px;
+}
+
+.newsletter button {
+  background-color: yellow;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.social-icons {
+  cursor: pointer;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  cursor: pointer;
+  margin-right: 15px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #d4d4d4;
+}

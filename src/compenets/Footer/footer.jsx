@@ -1,61 +1,58 @@
-import './footer.css';
-import FaFacebookF from '../../assets/FaFacebookF.png';
-import FaInstagram from '../../assets/FaInstagram.png';
-import FaYoutube  from '../../assets/FaYoutube.png';
+import "./footer.css";
+import facebook from "../../assets/facebook.png";  
+import instagram from "../../assets/instagram.png";  
+import youtube from "../../assets/youtube.png";  
 
 const Footer = () => {
   return (
-    <footer className="ya-footer">
+    <footer className="footer container">
       <div className="footer-container">
-        <div className="footer-section">
-          <h3>КАТАЛОГ ТОВАРОВ</h3>
+        <div className="footer-column">
+          <h4>Каталог Товаров</h4>
           <ul>
-            <li>КАРДИО ТРЕНАЖЕРЫ</li>
-            <li>COMPOSITE STRENGTH</li>
-            <li>TRUE STRETCH</li>
-            <li>САЙКЛИНГ</li>
-            <li>ГРУППОВЫЕ ТРЕНИРОВКИ</li>
-            <li>СИЛОВЫЕ ТРЕНАЖЕРЫ</li>
-            <li>КОНСОЛИ</li>
+            <li>Кардио тренажёры</li>
+            <li>Composite Strength</li>
+            <li>True Stretch</li>
+            <li>Сайклинг</li>
+            <li>Групповые тренировки</li>
+            <li>Силовые тренажёры</li>
+            <li>Консоли</li>
+          </ul>
+          <p>© TRUE FITNESS</p>
+        </div>
+
+        <div className="footer-column">
+          <h4>Информация</h4>
+          <ul>
+            <li>О Бренде</li>
+            <li>Преимущества</li>
+            <li>Открыть Клуб</li>
+            <li>Продукции</li>
+            <li>Контакты</li>
           </ul>
         </div>
 
-        <div className="footer-section">
-          <h3>ИНФОРМАЦИЯ</h3>
+        <div className="footer-column">
+          <h4>Контакты</h4>
           <ul>
-            <li>О БРЕНДЕ</li>
-            <li>ПРЕИМУЩЕСТВА</li>
-            <li>ОТКРЫТЬ КЛУБ</li>
-            <li>ПРОДУКЦИЯ</li>
-            <li>КОНТАКТЫ</li>
+            <li>Политика конфиденциальности</li>
+            <li>Контакты</li>
           </ul>
         </div>
 
-        <div className="footer-section">
-          <h3>КОНТАКТЫ</h3>
-          <ul>
-            <li>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</li>
-            <li>КОНТАКТЫ</li>
-          </ul>
-        </div>
-
-        <div className="footer-section subscribe">
-          <h3>ПОДПИСАТЬСЯ НА НОВОСТИ И АКЦИИ</h3>
-          <div className="subscribe-form">
-            <input type="email" placeholder="E-MAIL" />
-            <button type="submit">
-              <span className="arrow">➔</span>
-            </button>
-          </div>
+        <div className="footer-column newsletter">
+          <h4>Подписаться на новости и акции</h4>
+          <form>
+            <input type="email" placeholder="E - MAIL" />
+            <button type="submit">➤</button>
+          </form>
           <div className="social-icons">
-          <img className='icon' src={FaFacebookF} alt="" />
-          <img className='icon' src={FaInstagram} alt="" />
-            <img className='icon' src={FaYoutube} alt="" />
+            <img src={facebook} alt="Facebook" />
+            <img src={instagram} alt="Instagram" />
+            <img src={youtube} alt="YouTube" />
           </div>
         </div>
       </div>
-
-      
     </footer>
   );
 };
