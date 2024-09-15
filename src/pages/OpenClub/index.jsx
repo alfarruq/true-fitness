@@ -12,10 +12,11 @@ const OpenClub = () => {
     launchTime: '',
     services: [],
     comment: '',
+    plan: null,
   });
 
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type, checked, files } = e.target;
     if (type === 'checkbox') {
       setFormData((prevData) => ({
         ...prevData,
@@ -23,6 +24,8 @@ const OpenClub = () => {
           ? [...prevData.services, value]
           : prevData.services.filter((service) => service !== value),
       }));
+    } else if (type === 'file') {
+      setFormData({ ...formData, plan: files[0] });
     } else {
       setFormData({ ...formData, [name]: value });
     }
@@ -35,11 +38,11 @@ const OpenClub = () => {
   };
 
   return (
-    
+
     <div className="open-club">
-        <div className='Img-y'>
-            <img src={Rectangle} alt="" />
-        </div>
+      <div className="image-container">
+        <img src={Rectangle} alt="Club Layout" />
+      </div>
       <h1>ОТКРЫТЬ КЛУБ ВМЕСТЕ С TRUE</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
@@ -158,7 +161,11 @@ const OpenClub = () => {
           </div>
 
           <label>Загрузить план помещения:</label>
-          <input type="file" name="plan" />
+          <input 
+            type="file" 
+            name="plan" 
+            onChange={handleChange} 
+          />
 
           <label>Комментарий:</label>
           <textarea

@@ -1,0 +1,92 @@
+.ya-footer {
+    background-color: #00a6e6;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .footer-section.subscribe {
+    text-align: right;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 70%;
+  }
+  
+  .subscribe-form button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .subscribe-form .arrow {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .social-icons {
+    margin-top: 15px;
+  }
+  
+  .icon {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #ffeb3b;
+  }
+  
+  .footer-bottom {
+    background-color: #007bb5;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
